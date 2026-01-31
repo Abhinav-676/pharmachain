@@ -1,0 +1,19 @@
+'pharmachain'
+Create a multi-tenant pharmacy chain inventory management system.
+Tenants:
+1. Store
+2. Warehouse
+
+Tenant relationship
+Multiple store is related to one warehouse based on region.
+
+Item can be removed from a store
+Item can be added from the warehouse to a store
+
+User roles:
+1. Store admin
+2. Warehouse admin
+
+Store and warehouse also provide their apis such that, they can be integration with other apllications, so that admins are not always necessary.
+
+Make sure you provide proper api authentication to the apis exposed from store and warehouse such that it can be integrated with other services.
