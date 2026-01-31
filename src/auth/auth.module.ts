@@ -21,6 +21,6 @@ import { ResourceGuard } from './guard/resource.guard';
   ],
   providers: [AuthService, AuthGuard, RolesGuard, ResourceGuard],
   controllers: [AuthController],
-  exports: [AuthGuard, RolesGuard, ResourceGuard]
+  exports: [AuthGuard, RolesGuard, ResourceGuard, JwtModule]
 })
 export class AuthModule { }

@@ -11,7 +11,7 @@ import { Params } from "src/common/utils/params.enum";
 import { ResourceGuard } from "src/auth/guard/resource.guard";
 
 @Controller('warehouses')
-@UseGuards(AuthGuard, RolesGuard, ResourceGuard)
+
 export class WarehouseController {
     constructor(private readonly warehousesService: WarehousesService) { }
 

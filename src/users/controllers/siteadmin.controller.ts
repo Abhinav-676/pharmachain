@@ -11,7 +11,7 @@ import { ResourceGuard } from "src/auth/guard/resource.guard";
 
 @Controller('site-admins')
 @AuthorizedRoles(Roles.SITE_ADMIN)
-@UseGuards(AuthGuard, RolesGuard, ResourceGuard)
+
 export class SiteAdminController {
     constructor(
         private readonly siteAdminService: SiteAdminService,

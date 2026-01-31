@@ -12,7 +12,7 @@ import { ResourceGuard } from "src/auth/guard/resource.guard";
 
 
 @Controller('store-admins')
-@UseGuards(AuthGuard, RolesGuard, ResourceGuard)
+
 export class StoreAdminController {
     constructor(
         private readonly storeAdminService: StoreAdminService

@@ -10,7 +10,7 @@ import { Params } from "src/common/utils/params.enum";
 import { ResourceGuard } from "src/auth/guard/resource.guard";
 
 @Controller(`warehouses/:${Params.WAREHOUSE_ID}/inventory`)
-@UseGuards(AuthGuard, RolesGuard, ResourceGuard)
+
 export class WarehouseInventoryController {
 
     constructor(private readonly warehouseInventoryService: WarehouseInventoryService) { }

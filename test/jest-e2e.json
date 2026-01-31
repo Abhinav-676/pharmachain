@@ -11,6 +11,7 @@
     "^.+\\.(t|j)s$": "ts-jest"
   },
   "moduleNameMapper": {
-    "^pharmachain/common(|/.*)$": "<rootDir>/../libs/common/src/$1"
+    "^pharmachain/common(|/.*)$": "<rootDir>/../libs/common/src/$1",
+    "^src/(.*)$": "<rootDir>/../src/$1"
   }
 }
